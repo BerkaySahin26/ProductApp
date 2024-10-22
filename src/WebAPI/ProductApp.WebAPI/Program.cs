@@ -27,6 +27,6 @@ internal class Program
 
         app.MapControllers();
 
-        app.Run();
+        app.Run(); 
     }
 }

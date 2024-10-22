@@ -24,7 +24,7 @@ namespace ProductApp.WebAPI.Controllers
                 Id = i.Id,
                 Name = i.Name,
             }).ToList();
-            return Ok(result);
+            return Ok(result);  //Demo bitti
         }
     }
 }
