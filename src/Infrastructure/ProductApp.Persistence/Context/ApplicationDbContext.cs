@@ -15,7 +15,7 @@ namespace ProductApp.Persistence.Context
         public DbSet<Product> Products { get; set; }
 
 
-       
+      
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

@@ -12,10 +12,10 @@ namespace ProductApp.Application.Wrappers
     {
         public static void AddApplicationRegistration(this IServiceCollection services)
         {
-            var assm = Assembly.GetExecutingAssembly();
+            //var assm = Assembly.GetExecutingAssembly();
 
-            //services.AddAutoMapper(assm);
-            //services.AddMediatR(assm);
+            ////services.AddAutoMapper(assm);
+            ////services.AddMediatR(assm);
         }
     }
 }

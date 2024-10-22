@@ -18,7 +18,7 @@ namespace ProductApp.WebAPI.Controllers
         [HttpGet]
         public async Task <IActionResult> Get()
         {
-            var allList = await productRepository.GetAll();
+            var allList = await productRepository.GetAllAsync();
             var result = allList.Select(i => new ProductViewDto()
             {
                 Id = i.Id,
